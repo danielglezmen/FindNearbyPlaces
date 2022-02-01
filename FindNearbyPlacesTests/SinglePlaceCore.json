@@ -1,0 +1,88 @@
+{
+    "fsq_id": "4dfb885e45dd0d640c681811",
+    "categories": [
+        {
+            "id": 13064,
+            "name": "Pizzeria",
+            "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                "suffix": ".png"
+            }
+        },
+        {
+            "id": 13236,
+            "name": "Italian Restaurant",
+            "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/italian_",
+                "suffix": ".png"
+            }
+        }
+    ],
+    "distance": 2684,
+    "geocodes": {
+        "main": {
+            "latitude": 28.455500612766397,
+            "longitude": -16.295940456062265
+        }
+    },
+    "location": {
+        "address": "Avenida los Majuelos, 23",
+        "admin_region": "Islas Canarias",
+        "country": "ES",
+        "cross_street": "",
+        "locality": "La Laguna",
+        "postcode": "38108",
+        "region": "Canary Islands"
+    },
+    "name": "Pizzeria D'angelo",
+    "photos": [
+        {
+            "created_at": "2013-09-22T08:50:46.000Z",
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/14251137_l6nQTcNMnd2VsYizT_kZDhy5sJOy8_bzj9QHKRk9Fk4.jpg",
+            "width": 720,
+            "height": 960
+        },
+        {
+            "created_at": "2018-08-13T13:37:21.000Z",
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/15763871_0pL3y6wns30aELhCesw7dfytOfsQ74-Duh5dBGFxUA0.jpg",
+            "width": 1900,
+            "height": 1068,
+            "classifications": [
+                "food"
+            ]
+        },
+        {
+            "created_at": "2014-12-19T15:19:02.000Z",
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/15763871_2LSM4AoAXQhcS-g47WrfPnDtPQ9s-sp2viZWCoo9p0Y.jpg",
+            "width": 960,
+            "height": 540,
+            "classifications": [
+                "food"
+            ]
+        },
+        {
+            "created_at": "2014-12-19T15:18:35.000Z",
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/15763871_j16g7T4-1DFoHK9OY_xTqFVX3s1L2MjBRoW_PsgP2W4.jpg",
+            "width": 960,
+            "height": 540,
+            "classifications": [
+                "food"
+            ]
+        },
+        {
+            "created_at": "2013-09-22T08:51:12.000Z",
+            "prefix": "https://fastly.4sqi.net/img/general/",
+            "suffix": "/14251137_S5zPnUO9PRtYNR8HkK1uJuSBBGW1ZX0J9bsRuLgYOaA.jpg",
+            "width": 720,
+            "height": 960,
+            "classifications": [
+                "food"
+            ]
+        }
+    ],
+    "rating": 6.7
+}

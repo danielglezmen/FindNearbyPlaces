@@ -1,0 +1,242 @@
+{
+    "results": [
+        {
+            "type": "place",
+            "text": {
+                "primary": "Pavimentos Italianos",
+                "secondary": "Camino San Lazaro, 19, San Cristóbal de la Laguna, Santa Cruz de Tenerife 38206",
+                "highlight": [
+                    {
+                        "start": 11,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/4b50eaa459124e24f603a75c",
+            "place": {
+                "fsq_id": "4b50eaa459124e24f603a75c",
+                "categories": [
+                    {
+                        "id": 11079,
+                        "name": "Carpet and Flooring Contractor",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/realestate_",
+                            "suffix": ".png"
+                        }
+                    },
+                    {
+                        "id": 11081,
+                        "name": "Deck and Patio Contractor",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/realestate_",
+                            "suffix": ".png"
+                        }
+                    },
+                    {
+                        "id": 11098,
+                        "name": "Roofer",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/realestate_",
+                            "suffix": ".png"
+                        }
+                    }
+                ],
+                "distance": 2468,
+                "geocodes": {
+                    "main": {
+                        "latitude": 28.489688,
+                        "longitude": -16.329258
+                    }
+                },
+                "location": {
+                    "address": "Camino San Lazaro, 19",
+                    "admin_region": "Islas Canarias",
+                    "country": "ES",
+                    "locality": "San Cristóbal de la Laguna",
+                    "postcode": "38206",
+                    "region": "Santa Cruz de Tenerife"
+                },
+                "name": "Pavimentos Italianos"
+            }
+        },
+        {
+            "type": "place",
+            "text": {
+                "primary": "Pavimentos Italianos",
+                "secondary": "El Espinero, 8, San Cristóbal de la Laguna, Santa Cruz de Tenerife 38206",
+                "highlight": [
+                    {
+                        "start": 11,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/dce6d75848e843bae2a3c754",
+            "place": {
+                "fsq_id": "dce6d75848e843bae2a3c754",
+                "categories": [
+                    {
+                        "id": 18000,
+                        "name": "Sports and Recreation",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/sports_outdoors_",
+                            "suffix": ".png"
+                        }
+                    }
+                ],
+                "distance": 2726,
+                "geocodes": {
+                    "main": {
+                        "latitude": 28.489059,
+                        "longitude": -16.332828
+                    }
+                },
+                "location": {
+                    "address": "El Espinero, 8",
+                    "admin_region": "Islas Canarias",
+                    "country": "ES",
+                    "locality": "San Cristóbal de la Laguna",
+                    "postcode": "38206",
+                    "region": "Santa Cruz de Tenerife"
+                },
+                "name": "Pavimentos Italianos"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian food",
+                "secondary": "Search for Italian food",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20food",
+            "search": {
+                "query": "Italian food"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian subs",
+                "secondary": "Search for Italian subs",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20subs",
+            "search": {
+                "query": "Italian subs"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian bread",
+                "secondary": "Search for Italian bread",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20bread",
+            "search": {
+                "query": "Italian bread"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian sausage",
+                "secondary": "Search for Italian sausage",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20sausage",
+            "search": {
+                "query": "Italian sausage"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian desserts",
+                "secondary": "Search for Italian desserts",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20desserts",
+            "search": {
+                "query": "Italian desserts"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian salad",
+                "secondary": "Search for Italian salad",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20salad",
+            "search": {
+                "query": "Italian salad"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian ices",
+                "secondary": "Search for Italian ices",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20ices",
+            "search": {
+                "query": "Italian ices"
+            }
+        },
+        {
+            "type": "search",
+            "text": {
+                "primary": "Italian sandwiches",
+                "secondary": "Search for Italian sandwiches",
+                "highlight": [
+                    {
+                        "start": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            "link": "/v3/places/search?ll=28.47697%2C-16.30854&radius=5000&query=Italian%20sandwiches",
+            "search": {
+                "query": "Italian sandwiches"
+            }
+        }
+    ]
+}

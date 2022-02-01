@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991A196527988EF700A9B3DC /* FindNearbyPlacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A196427988EF700A9B3DC /* FindNearbyPlacesApp.swift */; };
+		991A196727988EF700A9B3DC /* AutocompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A196627988EF700A9B3DC /* AutocompleteView.swift */; };
+		991A196927988EFB00A9B3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991A196827988EFB00A9B3DC /* Assets.xcassets */; };
+		991A196C27988EFB00A9B3DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991A196B27988EFB00A9B3DC /* Preview Assets.xcassets */; };
+		991A197627988EFC00A9B3DC /* FindNearbyPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A197527988EFC00A9B3DC /* FindNearbyPlacesTests.swift */; };
+		991A198027988EFC00A9B3DC /* FindNearbyPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A197F27988EFC00A9B3DC /* FindNearbyPlacesUITests.swift */; };
+		991A198227988EFC00A9B3DC /* FindNearbyPlacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991A198127988EFC00A9B3DC /* FindNearbyPlacesUITestsLaunchTests.swift */; };
+		99AF3F62279898CE00303ABF /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF3F61279898CD00303ABF /* PlaceStore.swift */; };
+		99AF3F642798998400303ABF /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AF3F632798998400303ABF /* Place.swift */; };
+		9F1D909E27A1F481000A06BD /* AutocompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D909D27A1F481000A06BD /* AutocompleteResponse.swift */; };
+		9F1D90A427A1F5CD000A06BD /* AutocompleteResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D90A327A1F5CD000A06BD /* AutocompleteResponse.json */; };
+		9F1D90A527A1F962000A06BD /* AutocompleteResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D90A327A1F5CD000A06BD /* AutocompleteResponse.json */; };
+		9F1D90A727A1FB70000A06BD /* AutocompleteSearchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D90A627A1FB70000A06BD /* AutocompleteSearchRow.swift */; };
+		9F1D90A927A1FC0D000A06BD /* PlaceSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D90A827A1FC0D000A06BD /* PlaceSearchView.swift */; };
+		9F1D90AB27A1FD80000A06BD /* AutocompletePlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D90AA27A1FD80000A06BD /* AutocompletePlaceRow.swift */; };
+		9F1D90C927A43BF1000A06BD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D90C827A43BF1000A06BD /* CategoryView.swift */; };
+		9F1D90CB27A43DE5000A06BD /* PlaceDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D90CA27A43DE5000A06BD /* PlaceDescriptionView.swift */; };
+		9F37930927A9BA9400BB1DF1 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37930827A9BA9400BB1DF1 /* BackgroundView.swift */; };
+		9F37930B27A9BAF100BB1DF1 /* ProgressViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37930A27A9BAF100BB1DF1 /* ProgressViewRow.swift */; };
+		9F662DA027A453710025A9BD /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F662D9F27A453710025A9BD /* SearchField.swift */; };
+		9F662DA227A4569E0025A9BD /* AutocompleteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F662DA127A4569E0025A9BD /* AutocompleteStore.swift */; };
+		9F662DA427A45A3D0025A9BD /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F662DA327A45A3D0025A9BD /* PlaceDetailView.swift */; };
+		9F662DA627A52C8A0025A9BD /* PlaceDetailBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F662DA527A52C8A0025A9BD /* PlaceDetailBodyView.swift */; };
+		9F662DA827A52EED0025A9BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F662DA727A52EED0025A9BD /* MapView.swift */; };
+		9F6D8FBC279DF6910090884B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FBB279DF6910090884B /* NetworkManager.swift */; };
+		9F6D8FBE279F52CE0090884B /* PlacesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FBD279F52CE0090884B /* PlacesEndpoint.swift */; };
+		9F6D8FC127A046840090884B /* SearchPlaceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FC027A046840090884B /* SearchPlaceResponse.swift */; };
+		9F6D8FC427A04AA10090884B /* SnakeCaseJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FC327A04AA10090884B /* SnakeCaseJSONDecoder.swift */; };
+		9F6D8FC627A097AE0090884B /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FC527A097AE0090884B /* ModelTests.swift */; };
+		9F6D8FC827A09CF90090884B /* SearchPlaceResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6D8FC727A098820090884B /* SearchPlaceResponse.json */; };
+		9F6D8FC927A09D470090884B /* SearchPlaceResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6D8FC727A098820090884B /* SearchPlaceResponse.json */; };
+		9F6D8FCB27A09E330090884B /* SinglePlaceCore.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6D8FCA27A09E330090884B /* SinglePlaceCore.json */; };
+		9F6D8FCC27A09E330090884B /* SinglePlaceCore.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6D8FCA27A09E330090884B /* SinglePlaceCore.json */; };
+		9F6D8FCE27A137990090884B /* PlaceSearchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FCD27A137990090884B /* PlaceSearchRow.swift */; };
+		9F6D8FD127A1380B0090884B /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FD027A1380B0090884B /* LocalFileManager.swift */; };
+		9F6D8FD327A158130090884B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D8FD227A158130090884B /* RatingView.swift */; };
+		9F890EE127A5F6D9008FE9D6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EE027A5F6D9008FE9D6 /* LocationManager.swift */; };
+		9F890EE427A6A0FC008FE9D6 /* PlaceDetailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EE327A6A0FC008FE9D6 /* PlaceDetailStore.swift */; };
+		9F890EE627A6A429008FE9D6 /* AsyncPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EE527A6A429008FE9D6 /* AsyncPhotoView.swift */; };
+		9F890EE827A80FEE008FE9D6 /* PlaceDetailPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EE727A80FEE008FE9D6 /* PlaceDetailPhotosView.swift */; };
+		9F890EEA27A81296008FE9D6 /* PlaceDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EE927A81296008FE9D6 /* PlaceDetailHeaderView.swift */; };
+		9F890EF027A84E58008FE9D6 /* MapViewPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EEF27A84E58008FE9D6 /* MapViewPresentation.swift */; };
+		9F890EF227A84E91008FE9D6 /* MapAnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EF127A84E91008FE9D6 /* MapAnotationView.swift */; };
+		9F890EF427A89637008FE9D6 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EF327A89637008FE9D6 /* Favorites.swift */; };
+		9F890EF627A8A004008FE9D6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EF527A8A004008FE9D6 /* FavoriteButton.swift */; };
+		9F890EF827A9257A008FE9D6 /* FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F890EF727A9257A008FE9D6 /* FavoritesStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991A197227988EFC00A9B3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991A195927988EF600A9B3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991A196027988EF700A9B3DC;
+			remoteInfo = FindNearbyPlaces;
+		};
+		991A197C27988EFC00A9B3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991A195927988EF600A9B3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991A196027988EF700A9B3DC;
+			remoteInfo = FindNearbyPlaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		991A196127988EF700A9B3DC /* FindNearbyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindNearbyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991A196427988EF700A9B3DC /* FindNearbyPlacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearbyPlacesApp.swift; sourceTree = "<group>"; };
+		991A196627988EF700A9B3DC /* AutocompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteView.swift; sourceTree = "<group>"; };
+		991A196827988EFB00A9B3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		991A196B27988EFB00A9B3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		991A197127988EFC00A9B3DC /* FindNearbyPlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindNearbyPlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991A197527988EFC00A9B3DC /* FindNearbyPlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearbyPlacesTests.swift; sourceTree = "<group>"; };
+		991A197B27988EFC00A9B3DC /* FindNearbyPlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindNearbyPlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991A197F27988EFC00A9B3DC /* FindNearbyPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearbyPlacesUITests.swift; sourceTree = "<group>"; };
+		991A198127988EFC00A9B3DC /* FindNearbyPlacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearbyPlacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99AF3F61279898CD00303ABF /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStore.swift; sourceTree = "<group>"; };
+		99AF3F632798998400303ABF /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9F1D909D27A1F481000A06BD /* AutocompleteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteResponse.swift; sourceTree = "<group>"; };
+		9F1D90A327A1F5CD000A06BD /* AutocompleteResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AutocompleteResponse.json; sourceTree = "<group>"; };
+		9F1D90A627A1FB70000A06BD /* AutocompleteSearchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteSearchRow.swift; sourceTree = "<group>"; };
+		9F1D90A827A1FC0D000A06BD /* PlaceSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchView.swift; sourceTree = "<group>"; };
+		9F1D90AA27A1FD80000A06BD /* AutocompletePlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompletePlaceRow.swift; sourceTree = "<group>"; };
+		9F1D90C827A43BF1000A06BD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		9F1D90CA27A43DE5000A06BD /* PlaceDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDescriptionView.swift; sourceTree = "<group>"; };
+		9F37930827A9BA9400BB1DF1 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		9F37930A27A9BAF100BB1DF1 /* ProgressViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewRow.swift; sourceTree = "<group>"; };
+		9F37930C27A9C8E200BB1DF1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F662D9F27A453710025A9BD /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		9F662DA127A4569E0025A9BD /* AutocompleteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteStore.swift; sourceTree = "<group>"; };
+		9F662DA327A45A3D0025A9BD /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		9F662DA527A52C8A0025A9BD /* PlaceDetailBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailBodyView.swift; sourceTree = "<group>"; };
+		9F662DA727A52EED0025A9BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9F6D8FBB279DF6910090884B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9F6D8FBD279F52CE0090884B /* PlacesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesEndpoint.swift; sourceTree = "<group>"; };
+		9F6D8FC027A046840090884B /* SearchPlaceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceResponse.swift; sourceTree = "<group>"; };
+		9F6D8FC327A04AA10090884B /* SnakeCaseJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeCaseJSONDecoder.swift; sourceTree = "<group>"; };
+		9F6D8FC527A097AE0090884B /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		9F6D8FC727A098820090884B /* SearchPlaceResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SearchPlaceResponse.json; sourceTree = "<group>"; };
+		9F6D8FCA27A09E330090884B /* SinglePlaceCore.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SinglePlaceCore.json; sourceTree = "<group>"; };
+		9F6D8FCD27A137990090884B /* PlaceSearchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchRow.swift; sourceTree = "<group>"; };
+		9F6D8FD027A1380B0090884B /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		9F6D8FD227A158130090884B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		9F890EE027A5F6D9008FE9D6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9F890EE327A6A0FC008FE9D6 /* PlaceDetailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailStore.swift; sourceTree = "<group>"; };
+		9F890EE527A6A429008FE9D6 /* AsyncPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPhotoView.swift; sourceTree = "<group>"; };
+		9F890EE727A80FEE008FE9D6 /* PlaceDetailPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailPhotosView.swift; sourceTree = "<group>"; };
+		9F890EE927A81296008FE9D6 /* PlaceDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailHeaderView.swift; sourceTree = "<group>"; };
+		9F890EEF27A84E58008FE9D6 /* MapViewPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresentation.swift; sourceTree = "<group>"; };
+		9F890EF127A84E91008FE9D6 /* MapAnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnotationView.swift; sourceTree = "<group>"; };
+		9F890EF327A89637008FE9D6 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		9F890EF527A8A004008FE9D6 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		9F890EF727A9257A008FE9D6 /* FavoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991A195E27988EF700A9B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A196E27988EFC00A9B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A197827988EFC00A9B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991A195827988EF600A9B3DC = {
+			isa = PBXGroup;
+			children = (
+				9F37930C27A9C8E200BB1DF1 /* README.md */,
+				991A196327988EF700A9B3DC /* FindNearbyPlaces */,
+				991A197427988EFC00A9B3DC /* FindNearbyPlacesTests */,
+				991A197E27988EFC00A9B3DC /* FindNearbyPlacesUITests */,
+				991A196227988EF700A9B3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991A196227988EF700A9B3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991A196127988EF700A9B3DC /* FindNearbyPlaces.app */,
+				991A197127988EFC00A9B3DC /* FindNearbyPlacesTests.xctest */,
+				991A197B27988EFC00A9B3DC /* FindNearbyPlacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991A196327988EF700A9B3DC /* FindNearbyPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				991A196427988EF700A9B3DC /* FindNearbyPlacesApp.swift */,
+				9F890EED27A817B6008FE9D6 /* Autocomplete */,
+				9F890EEC27A81777008FE9D6 /* PlaceSearch */,
+				9F890EEB27A81759008FE9D6 /* PlaceDetail */,
+				9F890EEE27A82A86008FE9D6 /* Map */,
+				9F890F1927A97D6E008FE9D6 /* Favorites */,
+				9F890EE227A5F6E3008FE9D6 /* Location */,
+				9F6D8FC227A048770090884B /* Network */,
+				9F6D8FBF27A045110090884B /* Model */,
+				9F6D8FCF27A137C40090884B /* Helpers */,
+				9F1D90CD27A44053000A06BD /* Reusable Views */,
+				991A196827988EFB00A9B3DC /* Assets.xcassets */,
+				991A196A27988EFB00A9B3DC /* Preview Content */,
+			);
+			path = FindNearbyPlaces;
+			sourceTree = "<group>";
+		};
+		991A196A27988EFB00A9B3DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				991A196B27988EFB00A9B3DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		991A197427988EFC00A9B3DC /* FindNearbyPlacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				991A197527988EFC00A9B3DC /* FindNearbyPlacesTests.swift */,
+				9F6D8FC527A097AE0090884B /* ModelTests.swift */,
+				9F6D8FC727A098820090884B /* SearchPlaceResponse.json */,
+				9F1D90A327A1F5CD000A06BD /* AutocompleteResponse.json */,
+				9F6D8FCA27A09E330090884B /* SinglePlaceCore.json */,
+			);
+			path = FindNearbyPlacesTests;
+			sourceTree = "<group>";
+		};
+		991A197E27988EFC00A9B3DC /* FindNearbyPlacesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				991A197F27988EFC00A9B3DC /* FindNearbyPlacesUITests.swift */,
+				991A198127988EFC00A9B3DC /* FindNearbyPlacesUITestsLaunchTests.swift */,
+			);
+			path = FindNearbyPlacesUITests;
+			sourceTree = "<group>";
+		};
+		9F1D90CD27A44053000A06BD /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D90CA27A43DE5000A06BD /* PlaceDescriptionView.swift */,
+				9F1D90C827A43BF1000A06BD /* CategoryView.swift */,
+				9F6D8FD227A158130090884B /* RatingView.swift */,
+				9F890EE527A6A429008FE9D6 /* AsyncPhotoView.swift */,
+				9F37930827A9BA9400BB1DF1 /* BackgroundView.swift */,
+				9F37930A27A9BAF100BB1DF1 /* ProgressViewRow.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		9F6D8FBF27A045110090884B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F890EF327A89637008FE9D6 /* Favorites.swift */,
+				99AF3F632798998400303ABF /* Place.swift */,
+				9F1D909D27A1F481000A06BD /* AutocompleteResponse.swift */,
+				9F6D8FC027A046840090884B /* SearchPlaceResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F6D8FC227A048770090884B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F6D8FBB279DF6910090884B /* NetworkManager.swift */,
+				9F6D8FBD279F52CE0090884B /* PlacesEndpoint.swift */,
+				9F6D8FC327A04AA10090884B /* SnakeCaseJSONDecoder.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9F6D8FCF27A137C40090884B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F6D8FD027A1380B0090884B /* LocalFileManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9F890EE227A5F6E3008FE9D6 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				9F890EE027A5F6D9008FE9D6 /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		9F890EEB27A81759008FE9D6 /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9F890EE327A6A0FC008FE9D6 /* PlaceDetailStore.swift */,
+				9F662DA327A45A3D0025A9BD /* PlaceDetailView.swift */,
+				9F890EE927A81296008FE9D6 /* PlaceDetailHeaderView.swift */,
+				9F662DA527A52C8A0025A9BD /* PlaceDetailBodyView.swift */,
+				9F890EE727A80FEE008FE9D6 /* PlaceDetailPhotosView.swift */,
+			);
+			path = PlaceDetail;
+			sourceTree = "<group>";
+		};
+		9F890EEC27A81777008FE9D6 /* PlaceSearch */ = {
+			isa = PBXGroup;
+			children = (
+				99AF3F61279898CD00303ABF /* PlaceStore.swift */,
+				9F1D90A827A1FC0D000A06BD /* PlaceSearchView.swift */,
+				9F6D8FCD27A137990090884B /* PlaceSearchRow.swift */,
+			);
+			path = PlaceSearch;
+			sourceTree = "<group>";
+		};
+		9F890EED27A817B6008FE9D6 /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				9F662DA127A4569E0025A9BD /* AutocompleteStore.swift */,
+				991A196627988EF700A9B3DC /* AutocompleteView.swift */,
+				9F662D9F27A453710025A9BD /* SearchField.swift */,
+				9F1D90A627A1FB70000A06BD /* AutocompleteSearchRow.swift */,
+				9F1D90AA27A1FD80000A06BD /* AutocompletePlaceRow.swift */,
+			);
+			path = Autocomplete;
+			sourceTree = "<group>";
+		};
+		9F890EEE27A82A86008FE9D6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9F662DA727A52EED0025A9BD /* MapView.swift */,
+				9F890EF127A84E91008FE9D6 /* MapAnotationView.swift */,
+				9F890EEF27A84E58008FE9D6 /* MapViewPresentation.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9F890F1927A97D6E008FE9D6 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				9F890EF727A9257A008FE9D6 /* FavoritesStore.swift */,
+				9F890EF527A8A004008FE9D6 /* FavoriteButton.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991A196027988EF700A9B3DC /* FindNearbyPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991A198527988EFC00A9B3DC /* Build configuration list for PBXNativeTarget "FindNearbyPlaces" */;
+			buildPhases = (
+				991A195D27988EF700A9B3DC /* Sources */,
+				991A195E27988EF700A9B3DC /* Frameworks */,
+				991A195F27988EF700A9B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindNearbyPlaces;
+			packageProductDependencies = (
+			);
+			productName = FindNearbyPlaces;
+			productReference = 991A196127988EF700A9B3DC /* FindNearbyPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991A197027988EFC00A9B3DC /* FindNearbyPlacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991A198827988EFC00A9B3DC /* Build configuration list for PBXNativeTarget "FindNearbyPlacesTests" */;
+			buildPhases = (
+				991A196D27988EFC00A9B3DC /* Sources */,
+				991A196E27988EFC00A9B3DC /* Frameworks */,
+				991A196F27988EFC00A9B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991A197327988EFC00A9B3DC /* PBXTargetDependency */,
+			);
+			name = FindNearbyPlacesTests;
+			productName = FindNearbyPlacesTests;
+			productReference = 991A197127988EFC00A9B3DC /* FindNearbyPlacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		991A197A27988EFC00A9B3DC /* FindNearbyPlacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991A198B27988EFC00A9B3DC /* Build configuration list for PBXNativeTarget "FindNearbyPlacesUITests" */;
+			buildPhases = (
+				991A197727988EFC00A9B3DC /* Sources */,
+				991A197827988EFC00A9B3DC /* Frameworks */,
+				991A197927988EFC00A9B3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991A197D27988EFC00A9B3DC /* PBXTargetDependency */,
+			);
+			name = FindNearbyPlacesUITests;
+			productName = FindNearbyPlacesUITests;
+			productReference = 991A197B27988EFC00A9B3DC /* FindNearbyPlacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991A195927988EF600A9B3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					991A196027988EF700A9B3DC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					991A197027988EFC00A9B3DC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 991A196027988EF700A9B3DC;
+					};
+					991A197A27988EFC00A9B3DC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 991A196027988EF700A9B3DC;
+					};
+				};
+			};
+			buildConfigurationList = 991A195C27988EF700A9B3DC /* Build configuration list for PBXProject "FindNearbyPlaces" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991A195827988EF600A9B3DC;
+			packageReferences = (
+			);
+			productRefGroup = 991A196227988EF700A9B3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991A196027988EF700A9B3DC /* FindNearbyPlaces */,
+				991A197027988EFC00A9B3DC /* FindNearbyPlacesTests */,
+				991A197A27988EFC00A9B3DC /* FindNearbyPlacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991A195F27988EF700A9B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6D8FCB27A09E330090884B /* SinglePlaceCore.json in Resources */,
+				9F1D90A527A1F962000A06BD /* AutocompleteResponse.json in Resources */,
+				9F6D8FC927A09D470090884B /* SearchPlaceResponse.json in Resources */,
+				991A196C27988EFB00A9B3DC /* Preview Assets.xcassets in Resources */,
+				991A196927988EFB00A9B3DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A196F27988EFC00A9B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6D8FCC27A09E330090884B /* SinglePlaceCore.json in Resources */,
+				9F1D90A427A1F5CD000A06BD /* AutocompleteResponse.json in Resources */,
+				9F6D8FC827A09CF90090884B /* SearchPlaceResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A197927988EFC00A9B3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991A195D27988EF700A9B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F662DA027A453710025A9BD /* SearchField.swift in Sources */,
+				9F890EF027A84E58008FE9D6 /* MapViewPresentation.swift in Sources */,
+				9F6D8FCE27A137990090884B /* PlaceSearchRow.swift in Sources */,
+				9F890EF427A89637008FE9D6 /* Favorites.swift in Sources */,
+				9F890EEA27A81296008FE9D6 /* PlaceDetailHeaderView.swift in Sources */,
+				9F662DA427A45A3D0025A9BD /* PlaceDetailView.swift in Sources */,
+				9F662DA827A52EED0025A9BD /* MapView.swift in Sources */,
+				9F6D8FBE279F52CE0090884B /* PlacesEndpoint.swift in Sources */,
+				9F1D90A927A1FC0D000A06BD /* PlaceSearchView.swift in Sources */,
+				9F6D8FD327A158130090884B /* RatingView.swift in Sources */,
+				9F890EE127A5F6D9008FE9D6 /* LocationManager.swift in Sources */,
+				9F890EF227A84E91008FE9D6 /* MapAnotationView.swift in Sources */,
+				9F890EE827A80FEE008FE9D6 /* PlaceDetailPhotosView.swift in Sources */,
+				991A196727988EF700A9B3DC /* AutocompleteView.swift in Sources */,
+				9F890EE627A6A429008FE9D6 /* AsyncPhotoView.swift in Sources */,
+				9F890EF827A9257A008FE9D6 /* FavoritesStore.swift in Sources */,
+				991A196527988EF700A9B3DC /* FindNearbyPlacesApp.swift in Sources */,
+				9F1D90C927A43BF1000A06BD /* CategoryView.swift in Sources */,
+				9F1D90A727A1FB70000A06BD /* AutocompleteSearchRow.swift in Sources */,
+				9F6D8FC427A04AA10090884B /* SnakeCaseJSONDecoder.swift in Sources */,
+				9F1D909E27A1F481000A06BD /* AutocompleteResponse.swift in Sources */,
+				9F1D90AB27A1FD80000A06BD /* AutocompletePlaceRow.swift in Sources */,
+				99AF3F62279898CE00303ABF /* PlaceStore.swift in Sources */,
+				9F6D8FC127A046840090884B /* SearchPlaceResponse.swift in Sources */,
+				9F37930927A9BA9400BB1DF1 /* BackgroundView.swift in Sources */,
+				9F6D8FD127A1380B0090884B /* LocalFileManager.swift in Sources */,
+				9F662DA227A4569E0025A9BD /* AutocompleteStore.swift in Sources */,
+				9F662DA627A52C8A0025A9BD /* PlaceDetailBodyView.swift in Sources */,
+				99AF3F642798998400303ABF /* Place.swift in Sources */,
+				9F1D90CB27A43DE5000A06BD /* PlaceDescriptionView.swift in Sources */,
+				9F890EF627A8A004008FE9D6 /* FavoriteButton.swift in Sources */,
+				9F890EE427A6A0FC008FE9D6 /* PlaceDetailStore.swift in Sources */,
+				9F37930B27A9BAF100BB1DF1 /* ProgressViewRow.swift in Sources */,
+				9F6D8FBC279DF6910090884B /* NetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A196D27988EFC00A9B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991A197627988EFC00A9B3DC /* FindNearbyPlacesTests.swift in Sources */,
+				9F6D8FC627A097AE0090884B /* ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A197727988EFC00A9B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991A198227988EFC00A9B3DC /* FindNearbyPlacesUITestsLaunchTests.swift in Sources */,
+				991A198027988EFC00A9B3DC /* FindNearbyPlacesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991A197327988EFC00A9B3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991A196027988EF700A9B3DC /* FindNearbyPlaces */;
+			targetProxy = 991A197227988EFC00A9B3DC /* PBXContainerItemProxy */;
+		};
+		991A197D27988EFC00A9B3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991A196027988EF700A9B3DC /* FindNearbyPlaces */;
+			targetProxy = 991A197C27988EFC00A9B3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		991A198327988EFC00A9B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		991A198427988EFC00A9B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991A198627988EFC00A9B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindNearbyPlaces/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The location is used to provide places around you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DGM.FindNearbyPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991A198727988EFC00A9B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindNearbyPlaces/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The location is used to provide places around you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DGM.FindNearbyPlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		991A198927988EFC00A9B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2HW5JS247;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DGM.FindNearbyPlacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindNearbyPlaces.app/FindNearbyPlaces";
+			};
+			name = Debug;
+		};
+		991A198A27988EFC00A9B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2HW5JS247;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DGM.FindNearbyPlacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindNearbyPlaces.app/FindNearbyPlaces";
+			};
+			name = Release;
+		};
+		991A198C27988EFC00A9B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2HW5JS247;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DGM.FindNearbyPlacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindNearbyPlaces;
+			};
+			name = Debug;
+		};
+		991A198D27988EFC00A9B3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2HW5JS247;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DGM.FindNearbyPlacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindNearbyPlaces;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991A195C27988EF700A9B3DC /* Build configuration list for PBXProject "FindNearbyPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991A198327988EFC00A9B3DC /* Debug */,
+				991A198427988EFC00A9B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991A198527988EFC00A9B3DC /* Build configuration list for PBXNativeTarget "FindNearbyPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991A198627988EFC00A9B3DC /* Debug */,
+				991A198727988EFC00A9B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991A198827988EFC00A9B3DC /* Build configuration list for PBXNativeTarget "FindNearbyPlacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991A198927988EFC00A9B3DC /* Debug */,
+				991A198A27988EFC00A9B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991A198B27988EFC00A9B3DC /* Build configuration list for PBXNativeTarget "FindNearbyPlacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991A198C27988EFC00A9B3DC /* Debug */,
+				991A198D27988EFC00A9B3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991A195927988EF600A9B3DC /* Project object */;
+}

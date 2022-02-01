@@ -1,0 +1,674 @@
+{
+    "results": [
+        {
+            "fsq_id": "4dfb885e45dd0d640c681811",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "id": 13236,
+                    "name": "Italian Restaurant",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/italian_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 2684,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.455500612766397,
+                    "longitude": -16.295940456062265
+                }
+            },
+            "location": {
+                "address": "Avenida los Majuelos, 23",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "",
+                "locality": "La Laguna",
+                "postcode": "38108",
+                "region": "Canary Islands"
+            },
+            "name": "Pizzeria D'angelo",
+            "photos": [
+                {
+                    "created_at": "2013-09-22T08:50:46.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/14251137_l6nQTcNMnd2VsYizT_kZDhy5sJOy8_bzj9QHKRk9Fk4.jpg",
+                    "width": 720,
+                    "height": 960
+                },
+                {
+                    "created_at": "2018-08-13T13:37:21.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/15763871_0pL3y6wns30aELhCesw7dfytOfsQ74-Duh5dBGFxUA0.jpg",
+                    "width": 1900,
+                    "height": 1068,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2014-12-19T15:19:02.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/15763871_2LSM4AoAXQhcS-g47WrfPnDtPQ9s-sp2viZWCoo9p0Y.jpg",
+                    "width": 960,
+                    "height": 540,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2014-12-19T15:18:35.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/15763871_j16g7T4-1DFoHK9OY_xTqFVX3s1L2MjBRoW_PsgP2W4.jpg",
+                    "width": 960,
+                    "height": 540,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2013-09-22T08:51:12.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/14251137_S5zPnUO9PRtYNR8HkK1uJuSBBGW1ZX0J9bsRuLgYOaA.jpg",
+                    "width": 720,
+                    "height": 960,
+                    "classifications": [
+                        "food"
+                    ]
+                }
+            ],
+            "rating": 6.7
+        },
+        {
+            "fsq_id": "4bb4b9ef8786ef3bb78f6533",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 930,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.482695432807724,
+                    "longitude": -16.315496557738665
+                }
+            },
+            "location": {
+                "address": "Calle Elías Serra, 27",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "locality": "La Laguna",
+                "postcode": "38204",
+                "region": "Canary Islands"
+            },
+            "name": "Planet Pizza",
+            "photos": [
+                {
+                    "created_at": "2012-05-05T13:39:26.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/LkHVUPWeJWtT_RZNDblOsZ5756mvhGFbjWKzI-xyKuk.jpg",
+                    "width": 720,
+                    "height": 540,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2012-05-05T13:38:37.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/LkHVUPWeJWtT_RZNDblOsZ5756mvhGFbjWKzI-xyKuk.jpg",
+                    "width": 720,
+                    "height": 540
+                }
+            ]
+        },
+        {
+            "fsq_id": "4d2246588629224bedf92187",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 2362,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.468263512855156,
+                    "longitude": -16.28648061818688
+                }
+            },
+            "location": {
+                "address": "Local, 3",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "La Cuesta",
+                "locality": "La Laguna",
+                "postcode": "38320",
+                "region": "Canary Islands"
+            },
+            "name": "Maxipizza",
+            "photos": [
+                {
+                    "created_at": "2015-05-10T20:10:16.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/45594099_N9vxvxxen8I5YrigPrDenZ-kCCvWM09yPFiV9tDbML8.jpg",
+                    "width": 720,
+                    "height": 960,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2012-04-27T20:47:06.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/bEIIUZuC47R4x_OieQyPAmxbPceRBm4OqW6W3UJumsk.jpg",
+                    "width": 720,
+                    "height": 434,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2011-07-22T20:15:17.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/MELRKKNAOYG0RUT0DS5J0QLXNW1IWOQBLJVJ4JFH1UOIGZ0Y.jpg",
+                    "width": 537,
+                    "height": 720
+                },
+                {
+                    "created_at": "2013-05-25T14:44:55.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/40022136_Doth7JFeo3exqyHZHQW_w2RvVnk2oJ6tN_h5i8mm0V8.jpg",
+                    "width": 480,
+                    "height": 640
+                },
+                {
+                    "created_at": "2012-10-25T21:04:13.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/259853_WSb6hwnUtEzQmO73in2xy0LmsobxsNQ_j-P-x6R_Bic.jpg",
+                    "width": 612,
+                    "height": 612,
+                    "classifications": [
+                        "food"
+                    ]
+                }
+            ],
+            "rating": 7.8
+        },
+        {
+            "fsq_id": "53e529fc498ee825dba45136",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 5111,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.46822664384321,
+                    "longitude": -16.257167273059817
+                }
+            },
+            "location": {
+                "address": "Calle Juan Pablo II, 3",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "",
+                "locality": "Santa Cruz de Tenerife",
+                "postcode": "38004",
+                "region": "Canary Islands"
+            },
+            "name": "La Ecológica",
+            "photos": [
+                {
+                    "created_at": "2018-01-07T14:26:13.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/8982748_HaGWP_6eNWaMKhnWHKLGbwTNjA9sDEWsgti5A7lnHvw.jpg",
+                    "width": 1920,
+                    "height": 1440
+                },
+                {
+                    "created_at": "2017-09-24T13:26:20.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/7367461_FfLHoxfwJfmvKAD3zdcBWdfbbJETVQnwzhw6hjNN7Ow.jpg",
+                    "width": 1440,
+                    "height": 1920
+                },
+                {
+                    "created_at": "2016-06-25T14:58:02.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/56301321_Jp4CGo6bcVTfNq2R52TGbndKEnPz1G_EC2r1ArSEyvk.jpg",
+                    "width": 960,
+                    "height": 720,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2016-04-09T14:07:54.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/56301321_VdYTdmxEPnwHdqhHdbfSD_9F8iiL0D0bkqJoVB2UFzc.jpg",
+                    "width": 720,
+                    "height": 960,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2015-04-30T21:05:34.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/34917731_S9NFqdSpm892b97AMkMhkEOeKFvzSuVShzLHA8bmyUw.jpg",
+                    "width": 640,
+                    "height": 640
+                }
+            ],
+            "rating": 7.7
+        },
+        {
+            "fsq_id": "4e394c36e4cd799aaeef20ca",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "id": 13236,
+                    "name": "Italian Restaurant",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/italian_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 3979,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.465507742114177,
+                    "longitude": -16.26994353403903
+                }
+            },
+            "location": {
+                "address": "Avenida Venezuela, 5",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "",
+                "locality": "Santa Cruz de Tenerife",
+                "postcode": "38007",
+                "region": "Canary Islands"
+            },
+            "name": "Pizzería da Luiggi",
+            "photos": [
+                {
+                    "created_at": "2015-03-15T18:11:33.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/3306501_-G4x_Mg4jX2GDSIIlVVhtEXmGLUamlQXGW8l5Nm8JfM.jpg",
+                    "width": 1439,
+                    "height": 1920,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2014-03-20T20:41:54.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/57305090_9Xk8t3jvPmxM33Rqdel3LlpWBOOa_Qh-cycmvj3eZ9Y.jpg",
+                    "width": 960,
+                    "height": 720,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2013-12-19T22:56:13.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/57630348_ZsMLWLxOBH62h1R6plfwmxnaNf34p3OJVrYU5pvAwVU.jpg",
+                    "width": 640,
+                    "height": 640,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2013-08-18T13:02:38.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/57305090_pypRIrnDMifbHWmnn8D6fnFGDepN8Jyc-PZbpLBnk94.jpg",
+                    "width": 959,
+                    "height": 717,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2012-12-16T16:09:33.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/43138205_Bh6-gBhVK9rFSsgMdVq2asT6ZxqcXtGjotpn1aoYZuw.jpg",
+                    "width": 720,
+                    "height": 540,
+                    "classifications": [
+                        "food"
+                    ]
+                }
+            ],
+            "rating": 7.1
+        },
+        {
+            "fsq_id": "4d425565c65bf04d839153f4",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 1142,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.483630780730238,
+                    "longitude": -16.31744507851406
+                }
+            },
+            "location": {
+                "address": "Avenida de la Trinidad 47-49",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "",
+                "locality": "La Laguna",
+                "postcode": "38204",
+                "region": "Canary Islands"
+            },
+            "name": "Telepizza",
+            "photos": [
+                {
+                    "created_at": "2017-12-24T15:35:25.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/52754745_2afTGhbMzHvh0B7OkJtMLB4GhkDGZ4v9VSjGnqidD68.jpg",
+                    "width": 1900,
+                    "height": 1425
+                },
+                {
+                    "created_at": "2014-02-16T15:45:56.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/67029928_xOPn9TUggNSTr_ceTo0U06rC6t7Z-FZwsNmj1GzLcDE.jpg",
+                    "width": 960,
+                    "height": 540,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2013-07-25T20:39:25.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/54676458_TQKuFIat9ExscJpqu5frZwAs4srSAxYBrEkMwPmN_l0.jpg",
+                    "width": 960,
+                    "height": 720
+                },
+                {
+                    "created_at": "2013-07-07T18:07:48.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/53610999__HszUGRMwg-gYrPn5H9M49zzfyfIQRPB0QGl9qpI_30.jpg",
+                    "width": 720,
+                    "height": 960,
+                    "classifications": [
+                        "menu"
+                    ]
+                },
+                {
+                    "created_at": "2013-07-07T18:05:05.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/53610999_EIWGFQVpxDza2CWvYp0SM2OJ28EY8Ddnx-nbeqEAnPc.jpg",
+                    "width": 960,
+                    "height": 720
+                }
+            ],
+            "rating": 5.8
+        },
+        {
+            "fsq_id": "5c054ae1c876c8002c527362",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 1397,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.48794,
+                    "longitude": -16.315527
+                }
+            },
+            "location": {
+                "address": "Calle Obispo Rey Redondo, 11",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "",
+                "locality": "La Laguna",
+                "postcode": "38201",
+                "region": "Canary Islands"
+            },
+            "name": "La Venezia",
+            "photos": []
+        },
+        {
+            "fsq_id": "4d810482e6d7721e2f2d23c7",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                },
+                {
+                    "id": 13145,
+                    "name": "Fast Food Restaurant",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 4714,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.46652371949494,
+                    "longitude": -16.26175893888499
+                }
+            },
+            "location": {
+                "address": "Calle Ramon y Cajal, 59",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "Rambla De Santa Cruz",
+                "locality": "Santa Cruz de Tenerife",
+                "postcode": "38006",
+                "region": "Canary Islands"
+            },
+            "name": "La Finissima Maxipizza",
+            "photos": [
+                {
+                    "created_at": "2012-11-18T20:44:19.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/41696783_AGOuV9jOa1cEOY3n2j0-Z0MMW2lKjS5s56FqZhnayoI.jpg",
+                    "width": 478,
+                    "height": 720,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2018-09-26T12:58:23.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/57732927_sJ8oL5ZI5JrvTsRiWwth42fr9bvg1K_D256lGwwm-VU.jpg",
+                    "width": 1900,
+                    "height": 1068,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2012-12-13T14:00:54.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/36115309_xP66-BmRkEWgwfXg3i-wE1JK_w-yQ9kMnUfIMzCOwfc.jpg",
+                    "width": 720,
+                    "height": 540,
+                    "classifications": [
+                        "outdoor"
+                    ]
+                },
+                {
+                    "created_at": "2012-12-18T13:15:31.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/6147860_QEzihlv396PB09A49J2gNvM9liOcALviu8QBSSfFM-8.jpg",
+                    "width": 960,
+                    "height": 720,
+                    "classifications": [
+                        "food"
+                    ]
+                },
+                {
+                    "created_at": "2013-04-11T15:41:59.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/7083964_Ks8qZF2z06DEJw0yYewaGrWcwBFkRredmslojAA6_5A.jpg",
+                    "width": 612,
+                    "height": 612,
+                    "classifications": [
+                        "food"
+                    ]
+                }
+            ],
+            "rating": 5.9
+        },
+        {
+            "fsq_id": "4bb2676ba32876b03e8d00fe",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 3291,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.448998655773288,
+                    "longitude": -16.297449200189085
+                }
+            },
+            "location": {
+                "address": "Edificio el Parque, 136",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "",
+                "locality": "Taco",
+                "postcode": "38108",
+                "region": "Canary Islands"
+            },
+            "name": "Telepizza",
+            "photos": [
+                {
+                    "created_at": "2012-03-04T18:05:55.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/ZxUNxM_8zK7vPgK3irq1l4nvFlfc48qXCmesWnAReg8.jpg",
+                    "width": 720,
+                    "height": 540
+                },
+                {
+                    "created_at": "2012-02-29T18:41:22.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/v5E0LeHylf8xX2UMx52S4lVa94MYPVghidIAigMeHiY.jpg",
+                    "width": 720,
+                    "height": 540
+                }
+            ]
+        },
+        {
+            "fsq_id": "4e8a1a768231f62df95af7a2",
+            "categories": [
+                {
+                    "id": 13064,
+                    "name": "Pizzeria",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "distance": 3608,
+            "geocodes": {
+                "main": {
+                    "latitude": 28.456822574124335,
+                    "longitude": -16.279568882236095
+                }
+            },
+            "location": {
+                "address": "Ur. la Florita, 5",
+                "admin_region": "Islas Canarias",
+                "country": "ES",
+                "cross_street": "Los Sauces",
+                "locality": "Santa Cruz de Tenerife",
+                "postcode": "38009",
+                "region": "Canary Islands"
+            },
+            "name": "Pizzeria Itaca",
+            "photos": [
+                {
+                    "created_at": "2013-01-18T19:54:46.000Z",
+                    "prefix": "https://fastly.4sqi.net/img/general/",
+                    "suffix": "/4761721_uXuhPtbC7VP7jWYxKgwenQEin-P3RKC3TsgUm6prpiY.jpg",
+                    "width": 612,
+                    "height": 612
+                }
+            ]
+        }
+    ],
+    "context": {
+        "geo_bounds": {
+            "circle": {
+                "center": {
+                    "latitude": 28.47697,
+                    "longitude": -16.30854
+                },
+                "radius": 2631
+            }
+        }
+    }
+}
